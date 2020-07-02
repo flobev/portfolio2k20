@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 h1 {
-  font-size: var(--header1);
+  font-size: 2.5rem;
 }
 
 li,
@@ -20,20 +20,20 @@ label,
 input,
 p,
 a {
-  font-size: var(--text);
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: var(--header2);
+  font-size: 4rem;
 }
 
 h3 {
-  font-size: var(--header3);
+  font-size: 2.5rem;
 }
 
 h4,
 h5 {
-  font-size: var(--header4);
+  font-size: 2rem;
 }
 
 ul {
@@ -41,7 +41,7 @@ ul {
 }
 
 a {
-  color: var(--gray-text);
+  color: #2c2c2c;
   text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
