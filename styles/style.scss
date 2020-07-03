@@ -16,3 +16,9 @@ $gray-text: #2c2c2c;
 
 @import "_global";
 @import "_intro";
+
+@media screen and (max-width: 1332px) {
+  html {
+    font-size: 53%;
+  }
+}
