@@ -20,16 +20,24 @@ $gray-text: #2c2c2c;
 @import "_contact";
 @import "_footer";
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1349px) {
   html {
-    font-size: 53%;
+    font-size: 50%;
   }
+
   .splash {
     display: none;
   }
+
+  div.intro-text h2,
+  h3 {
+    font-size: 6rem;
+  }
+
   svg {
     width: 80%;
   }
+
   nav {
     width: 100%;
   }
@@ -39,12 +47,15 @@ $gray-text: #2c2c2c;
   html {
     font-size: 45%;
   }
+
   svg {
     height: 60%;
   }
+
   .main-head {
     width: 100%;
   }
+
   nav {
     .logo {
       @include flex(center, center, column);
@@ -56,6 +67,7 @@ $gray-text: #2c2c2c;
       margin: 2rem 0rem;
     }
   }
+
   .intro-text {
     margin-top: 5rem;
     text-align: center;
@@ -71,6 +83,7 @@ $gray-text: #2c2c2c;
       margin: 2rem;
     }
   }
+
   .elena,
   .travelly {
     flex: 1 1 50rem;

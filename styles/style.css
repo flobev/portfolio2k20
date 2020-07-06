@@ -296,10 +296,11 @@ nav ul {
   text-align: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 4rem;
 }
 
 .projects h2 {
-  margin: 5rem;
+  margin: 2rem;
 }
 
 .travelly,
@@ -417,12 +418,16 @@ footer h4 {
           flex: 1 1 40rem;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1349px) {
   html {
-    font-size: 53%;
+    font-size: 50%;
   }
   .splash {
     display: none;
+  }
+  div.intro-text h2,
+  h3 {
+    font-size: 6rem;
   }
   svg {
     width: 80%;
