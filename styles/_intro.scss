@@ -19,6 +19,12 @@ nav {
     @include flex(space-around, center, row);
     flex: 1 1 40rem;
   }
+  a:hover {
+    padding: 1rem 4rem;
+    background-color: #515151;
+    color: white;
+    border-radius: 2rem;
+  }
 }
 
 .intro {
@@ -62,7 +68,7 @@ nav {
 }
 
 .active {
-  background-color: $gray-text;
+  background-color: $gray-text !important;
   color: white;
   padding: 1rem 3rem;
   border-radius: 2rem;
