@@ -30,9 +30,10 @@ nav {
   h2 {
     font-size: 8rem;
     padding-top: 2rem;
-    background: $gradient;
+    /* background: $gradient;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
+    color: black;
     display: inline-block;
   }
   h3 {
@@ -70,6 +71,10 @@ nav {
 .intro-text,
 .intro-images {
   flex: 1 1 40rem;
+}
+
+.intro-images {
+  text-align: center;
 }
 
 #plant-left {
