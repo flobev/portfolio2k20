@@ -20,9 +20,9 @@ nav {
     flex: 1 1 40rem;
   }
   a:hover {
-    padding: 1rem 4rem;
-    background-color: #515151;
-    color: white;
+    padding: 1rem 2rem;
+    color: black;
+    border: solid 4px #515151;
     border-radius: 2rem;
   }
 }
@@ -66,13 +66,29 @@ nav {
   a {
     margin-right: 5rem;
   }
+  img:hover {
+    width: 16%;
+  }
+  .pulse {
+    animation: pulse-animation 3s infinite;
+    border-radius: 2rem;
+  }
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
 }
 
 .active {
-  background-color: $gray-text !important;
-  color: white;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   border-radius: 2rem;
+  color: black;
+  border: solid 4px black !important;
 }
 
 .intro-text,

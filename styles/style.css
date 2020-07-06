@@ -116,9 +116,9 @@ nav ul {
 }
 
 nav a:hover {
-  padding: 1rem 4rem;
-  background-color: #515151;
-  color: white;
+  padding: 1rem 2rem;
+  color: black;
+  border: solid 4px #515151;
   border-radius: 2rem;
 }
 
@@ -179,11 +179,43 @@ nav a:hover {
   margin-right: 5rem;
 }
 
-.active {
-  background-color: #2c2c2c !important;
-  color: white;
-  padding: 1rem 3rem;
+.intro-social img:hover {
+  width: 16%;
+}
+
+.intro-social .pulse {
+  -webkit-animation: pulse-animation 3s infinite;
+          animation: pulse-animation 3s infinite;
   border-radius: 2rem;
+}
+
+@-webkit-keyframes pulse-animation {
+  0% {
+    -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes pulse-animation {
+  0% {
+    -webkit-box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+.active {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: black;
+  border: solid 4px black !important;
 }
 
 .intro-text,
