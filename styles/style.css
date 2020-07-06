@@ -126,6 +126,7 @@ nav a:hover {
   min-height: 90vh;
   width: 90%;
   margin: auto;
+  margin-bottom: 2rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   display: -webkit-box;
@@ -439,6 +440,9 @@ footer h4 {
   div.intro-text h2,
   h3 {
     font-size: 6rem;
+  }
+  section .intro {
+    margin-bottom: 10rem;
   }
   svg {
     width: 80%;
