@@ -5,8 +5,9 @@
   @include flex(space-between, center, row);
   text-align: center;
   flex-wrap: wrap;
+  margin-bottom: 4rem;
   h2 {
-    margin: 5rem;
+    margin: 2rem;
   }
 }
 
