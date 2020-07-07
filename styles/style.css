@@ -435,9 +435,9 @@ footer {
 }
 
 footer ul {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 40rem;
+          flex: 3 1 40rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -477,6 +477,28 @@ footer h4 {
   }
   nav {
     width: 100%;
+  }
+  footer ul {
+    -webkit-box-flex: 3;
+        -ms-flex: 3 1 60rem;
+            flex: 3 1 60rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  footer h4 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 20rem;
+            flex: 1 1 20rem;
   }
 }
 
@@ -554,6 +576,28 @@ footer h4 {
   form {
     padding: 0rem;
     width: 100%;
+  }
+  footer ul {
+    -webkit-box-flex: 3;
+        -ms-flex: 3 1 0rem;
+            flex: 3 1 0rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer h4 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 2rem;
+            flex: 1 1 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
