@@ -179,10 +179,6 @@ nav a:hover {
   margin-right: 5rem;
 }
 
-.intro-social img:hover {
-  width: 16%;
-}
-
 .intro-social .pulse {
   -webkit-animation: pulse-animation 3s infinite;
           animation: pulse-animation 3s infinite;
