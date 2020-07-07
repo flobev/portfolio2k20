@@ -99,10 +99,22 @@ nav {
 
 #plant-left {
   animation: plant 1.5s ease infinite alternate;
+  #Vector_33 {
+    fill: $gray-text;
+  }
+  #Vector_34 {
+    fill: white;
+  }
 }
 
 #plant-right {
   animation: plant 1.5s ease infinite alternate 0.5s;
+  #Vector_35 {
+    fill: $gray-text;
+  }
+  #Vector_36 {
+    fill: white;
+  }
 }
 
 #me {

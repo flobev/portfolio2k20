@@ -230,9 +230,25 @@ nav a:hover {
           animation: plant 1.5s ease infinite alternate;
 }
 
+#plant-left #Vector_33 {
+  fill: #2c2c2c;
+}
+
+#plant-left #Vector_34 {
+  fill: white;
+}
+
 #plant-right {
   -webkit-animation: plant 1.5s ease infinite alternate 0.5s;
           animation: plant 1.5s ease infinite alternate 0.5s;
+}
+
+#plant-right #Vector_35 {
+  fill: #2c2c2c;
+}
+
+#plant-right #Vector_36 {
+  fill: white;
 }
 
 #me {
