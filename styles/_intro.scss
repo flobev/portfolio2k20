@@ -31,7 +31,6 @@ nav {
   min-height: 90vh;
   width: 90%;
   margin: auto;
-  margin-bottom: 2rem;
   flex-wrap: wrap;
   @include flex(space-around, center, row);
   h2 {

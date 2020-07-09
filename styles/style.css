@@ -126,7 +126,6 @@ nav a:hover {
   min-height: 90vh;
   width: 90%;
   margin: auto;
-  margin-bottom: 2rem;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   display: -webkit-box;
